@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  web:
+    image: chat-app-pipeline-web:latest
+    build: .
+    ports:
+      - "80:3000"
